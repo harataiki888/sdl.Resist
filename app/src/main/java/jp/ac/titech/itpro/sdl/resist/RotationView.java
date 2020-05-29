@@ -52,7 +52,7 @@ class RotationView extends View {
     }
 
     void setDirection(double th) {
-        direction = th - Math.PI / 2;
+        direction = th - Math.PI /2;
         this.getRotation();
         invalidate();
     }
